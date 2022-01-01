@@ -2,10 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  margin: 0;
   font-family: sans-serif;
 }
 
@@ -23,9 +19,9 @@ label {
 input,
 textarea {
   width: 100%;
-  max-width: 30rem;
   padding: 0.2rem 0.4rem;
   border: 1px solid #ccc;
+  border-radius: 1rem;
   font: inherit;
 }
 
@@ -38,6 +34,7 @@ textarea:focus {
 button {
   padding: 0.75rem 1rem;
   border: 1px solid #ff0062;
+  border-radius: 1rem;
   background: #ff0062;
   color: white;
   font: inherit;
@@ -118,8 +115,10 @@ button:active {
 }
 
 #user-input {
+  width: 50%;
   margin: 1rem;
   padding: 1rem;
   border: 1px solid #ff0062;
+  border-radius: 1rem;
   background: #f7f7f7;
 }
